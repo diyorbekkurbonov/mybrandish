@@ -1,0 +1,234 @@
+@media(max-width:1200px){
+
+}
+@media(max-width:992px){
+  .nav__link-btn{
+    display: block;
+    z-index: 10;
+    /* position: fixed; */
+
+ }
+ .nav__list{
+  background: rgba(0, 0, 0, 03);
+  
+  max-width: 100%;
+  width: 200px;
+  height: 100%;
+  top: 0;
+  right: 0;
+   position: fixed; 
+  flex-direction: column;
+  justify-content: center;
+  display: none;
+  z-index: 2;
+  padding-top: 50px;
+ }
+ .nav__itm{
+  
+  margin: 20px;
+
+ }
+ .nav__list-active{
+  display: flex;
+
+ }
+    .service__bgt{
+        font-size: 30px;
+        display: none;
+        transform: scale(0.9);
+
+      }
+      .service__content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 0;
+       margin-bottom: -70px;
+       
+      }
+
+      .glass{
+        margin-left: -300px;
+        position: relative;
+        transform: scale(0.9);
+
+      }
+}
+@media(max-width:768px){
+
+    .header__nav{
+        padding: 20px 0;
+    }
+    .nav__link{
+        font-size: 13px;
+    }
+
+    .left__subtitle{
+       font-size: 42px;
+
+    }
+    .left__text{
+        font-size: 16px;
+        box-shadow: none;
+    }
+    .right__title{
+          font-size: 15px;
+    }
+    .button{
+       padding: 50px 0;
+    }
+    .section__aboutme{
+        padding: 50px 0;
+    }
+    .about__me-left{
+       width: 200px;
+       height: 200px;
+    }
+    .aboutme__left-button{
+        width: 170px;
+    }
+    .about__me-title{
+     font-size: 22px;
+     padding: 20px 0 7px;
+
+
+    }
+    .about__me-subtitle{
+    font-size: 17px;
+    padding-bottom: 47px;
+
+    }
+    .about__me-subtitle:hover{
+      font-size: 17px;
+    }
+    .about__me-content{
+        justify-content: space-between;
+        column-gap: 0;
+        padding: 30px 0;
+
+
+    }
+    .about__me-right{
+        width: 200px;
+       
+    }
+    .aboutme__right-subtitle{
+         font-size: 17px;
+         line-height: 19px;
+         margin-bottom: 47px;
+
+    }
+    .aboutme__card{
+         
+        transform: scale(0.8);
+       
+    }
+    .myskills__content{
+        max-width: 600px;
+        display: grid;
+        grid-template-columns:repeat( 2,1fr);
+      }
+    .myskills__card{
+        transform: scale(0.8);
+    }
+    .service__bg{
+        font-size: 30px;
+        transform: scale(0.6);
+      }
+      .glass{
+        transform: scale(0.7);
+       margin-left: -300px;
+      }
+      .contacts__content{
+    
+        transform: scale(0.7);
+      }
+      .footer__content{
+        transform: scale(0.7);
+      }
+
+      .glass{
+        position: relative;
+        transform: scale(0.6);
+         
+      }
+
+}
+@media(max-width:520px){
+
+
+
+    .right__img{
+        margin-top: -15px;
+        width: 100px;
+        height: 100px;
+
+    }
+  .about__me{
+    font-size: 17px;
+    padding: 10px 15px;
+
+  }
+  .left__subtitle{
+    margin-bottom: 20px;
+    font-size: 22px;
+    width: 105px;
+    margin-left: -10px;
+    color: goldenrod;
+  }
+  .left__text{
+   display: none;
+  }
+  .bottom{
+    margin: 20px 0;
+  }
+  .about__me-content{
+    flex-direction: column;
+    row-gap: 60px;
+  }
+  .aboutme__right-subtitle{
+    text-align: center;
+  }
+  .myskills__content{
+    max-width: 300px;
+     display: flex;
+     flex-direction: column;
+     padding: 10px;
+  }
+  /* .portfolio__card{
+    row-gap: 20px;
+
+  } 
+   .service__bg{
+    font-size: 30px;
+    transform: scale(0.4);
+  }
+  .glass{
+    transform: scale(0.4);
+   margin-left: -60px;
+  } */
+  .portfolio__card{
+    transform: scale(0.7);
+  }
+  .contacts__content{
+    transform: scale(0.5);
+  }
+  .footer__title,
+  .footer__content{
+    column-gap: 150px;
+    transform: scale(0.5);
+    margin-left: -100px;
+  }
+  .footer__title{
+    margin-top: -40px;
+  }
+  .footer{
+    margin-top: -90px;
+  
+
+  }
+}
+@media(max-width:350px){
+    
+
+}
